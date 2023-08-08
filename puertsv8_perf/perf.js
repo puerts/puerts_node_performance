@@ -16,15 +16,6 @@ for(var i = 0; i < LOOP_COUNT; i++) {
 let endTime = new Date();
 console.log (`${LOOP_COUNT} Calc.Add using ${(endTime.getTime() - beginTime.getTime())}ms`);
 
-const Add = Calc.Add
-
-beginTime = new Date();
-for(var i = 0; i < LOOP_COUNT; i++) {
-    Add(12, 34);
-}
-endTime = new Date();
-console.log (`${LOOP_COUNT} add using ${(endTime.getTime() - beginTime.getTime())}ms`);
-
 let calc = new Calc();
 
 beginTime = new Date();
@@ -34,4 +25,3 @@ for(var i = 0; i < LOOP_COUNT; i++) {
 endTime = new Date();
 console.log (`${LOOP_COUNT} calc.M_Add using ${(endTime.getTime() - beginTime.getTime())}ms`);
 
-console.log(Calc.Add(12, 34), Add(12, 34), calc.M_Add(12, 34))
