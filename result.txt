@@ -1,0 +1,111 @@
+os: Ubuntu 22.04.2 LTS (run on wsl)
+node version: v18.14.1
+cpu: 12th Gen Intel(R) Core(TM) i7-1260P   2.10 GHz
+memory: 32.0 GB
+
+--------------napi_perf-----------------
+1000000 Calc.Add using 20ms
+----------------------------------------
+--------------puerts_fastcall_perf-----------------
+1000000 Calc.Add using 4ms
+1000000 calc.M_Add using 10ms
+----------------------------------------
+--------------puerts_perf-----------------
+1000000 Calc.Add using 28ms
+1000000 calc.M_Add using 39ms
+----------------------------------------
+--------------puerts_v8_perf-----------------
+1000000 Calc.Add using 12ms
+1000000 calc.M_Add using 20ms
+----------------------------------------
+--------------v8api_perf-----------------
+1000000 Calc.Add using 11ms
+----------------------------------------
+--------------v8pp_pref-----------------
+1000000 Calc.Add using 21ms
+1000000 calc.M_Add using 98ms
+----------------------------------------
+
+os: Windows 10 22H2
+node version: v16.16.0
+cpu: 12th Gen Intel(R) Core(TM) i7-1260P   2.10 GHz
+memory: 32.0 GB
+
+"--------------napi_perf-----------------"
+1000000 Calc.Add using 25ms
+"----------------------------------------"
+"--------------puerts_fastcall_perf-----------------"
+1000000 Calc.Add using 4ms
+1000000 calc.M_Add using 11ms
+"----------------------------------------"
+"--------------puerts_perf-----------------"
+1000000 Calc.Add using 24ms
+1000000 calc.M_Add using 29ms
+"----------------------------------------"
+"--------------puerts_v8_perf-----------------"
+1000000 Calc.Add using 16ms
+1000000 calc.M_Add using 19ms
+"----------------------------------------"
+"--------------v8api_perf-----------------"
+1000000 Calc.Add using 13ms
+"----------------------------------------"
+"--------------v8pp_pref-----------------"
+1000000 Calc.Add using 30ms
+1000000 calc.M_Add using 138ms
+"----------------------------------------"
+
+os: macOS Monterey 12.6.8
+node version: v20.5.0
+cpu:  10 core 10th-generation Intel Core i9 3.6G
+memory: 32.0 GB
+
+--------------napi_perf-----------------
+1000000 Calc.Add using 27ms
+----------------------------------------
+--------------puerts_fastcall_perf-----------------
+1000000 Calc.Add using 5ms
+1000000 calc.M_Add using 10ms
+----------------------------------------
+--------------puerts_perf-----------------
+1000000 Calc.Add using 25ms
+1000000 calc.M_Add using 37ms
+----------------------------------------
+--------------puerts_v8_perf-----------------
+1000000 Calc.Add using 21ms
+1000000 calc.M_Add using 25ms
+----------------------------------------
+--------------v8api_perf-----------------
+1000000 Calc.Add using 15ms
+----------------------------------------
+--------------v8pp_pref-----------------
+1000000 Calc.Add using 30ms
+1000000 calc.M_Add using 88ms
+----------------------------------------
+
+os: macOS Ventura 13.5
+node version: v18.9.0
+cpu:  Apple M1 Pro
+memory: 32.0 GB
+
+--------------napi_perf-----------------
+1000000 Calc.Add using 39ms
+----------------------------------------
+--------------puerts_fastcall_perf-----------------
+1000000 Calc.Add using 5ms
+1000000 calc.M_Add using 12ms
+----------------------------------------
+--------------puerts_perf-----------------
+1000000 Calc.Add using 29ms
+1000000 calc.M_Add using 31ms
+----------------------------------------
+--------------puerts_v8_perf-----------------
+1000000 Calc.Add using 19ms
+1000000 calc.M_Add using 21ms
+----------------------------------------
+--------------v8api_perf-----------------
+1000000 Calc.Add using 15ms
+----------------------------------------
+--------------v8pp_pref-----------------
+1000000 Calc.Add using 64ms
+1000000 calc.M_Add using 78ms
+----------------------------------------
