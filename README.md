@@ -30,31 +30,31 @@ First, check the node.js version, download the corresponding source code package
 
 #### Windows
 
-os: Windows 10 22H2
-node version: v16.16.0
-cpu: 12th Gen Intel(R) Core(TM) i7-1260P   2.10 GHz
-memory: 32.0 GB
+* os: Windows 10 22H2
+* node version: v16.16.0
+* cpu: 12th Gen Intel(R) Core(TM) i7-1260P   2.10 GHz
+* memory: 32.0 GB
 
 #### Ubuntu
 
-os: Ubuntu 22.04.2 LTS (run on wsl)
-node version: v18.14.1
-cpu: 12th Gen Intel(R) Core(TM) i7-1260P   2.10 GHz
-memory: 32.0 GB
+* os: Ubuntu 22.04.2 LTS (run on wsl)
+* node version: v18.14.1
+* cpu: 12th Gen Intel(R) Core(TM) i7-1260P   2.10 GHz
+* memory: 32.0 GB
 
 #### macOS@intel
 
-os: macOS Monterey 12.6.8
-node version: v20.5.0
-cpu:  10 core 10th-generation Intel Core i9 3.6G
-memory: 32.0 GB
+* os: macOS Monterey 12.6.8
+* node version: v20.5.0
+* cpu:  10 core 10th-generation Intel Core i9 3.6G
+* memory: 32.0 GB
 
 #### macOS@m1
 
-os: macOS Ventura 13.5
-node version: v18.9.0
-cpu:  Apple M1 Pro
-memory: 32.0 GB
+* os: macOS Ventura 13.5
+* node version: v18.9.0
+* cpu:  Apple M1 Pro
+* memory: 32.0 GB
 
 ### Test Results
 
