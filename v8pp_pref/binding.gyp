@@ -4,7 +4,7 @@
 		{
 			'target_name': 'v8pp_pref',
 			'include_dirs': [
-              "<!@(node -p \"require('v8pp')\")"
+              "node_modules/v8pp"
             ],
 			'cflags_cc': ['-std=c++17', '-fexceptions'],
 			'msvs_settings': { 'VCCLCompilerTool': { 'ExceptionHandling': 1, 'AdditionalOptions': ['/std:c++17'] } },
