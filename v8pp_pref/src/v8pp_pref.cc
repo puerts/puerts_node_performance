@@ -20,9 +20,11 @@ void init(Local<Object> exports) {
     v8pp::module addon(isolate);
     
     v8pp::class_<Calc> Calc_class(isolate);
-    Calc_class.ctor();
-    Calc_class.function("Add", &Calc::Add);
-    Calc_class.function("M_Add", &Calc::M_Add);
+    Calc_class
+         .ctor()
+         .function("Add", &Calc::Add)
+         .function("M_Add", &Calc::M_Add)
+         .auto_wrap_objects(true);
 
     // set class into the module template
     addon.class_("Calc", Calc_class);
