@@ -3,8 +3,8 @@
 //"defines": [ "BUILDING_PES_EXTENSION", "PES_EXTENSION_WITH_V8_API", "WITH_V8_FAST_CALL"],
 const puerts = require('puerts');
 
-let puertsv8 = puerts.load('build/Release/puertsv8_perf.node');
-const Calc = puertsv8.Calc;
+let puerts_perf = puerts.load('build/Release/puerts_perf.node');
+const Calc = puerts_perf.Calc;
 
 
 const LOOP_COUNT = 1000000;
